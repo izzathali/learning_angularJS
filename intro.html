@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<!-- can be added to a web page with a script tag: -->
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+
+<body>
+    <!-- ----------- AngularJS Extends HTML ---------------------- -->
+
+    <!-- The ng-app directive defines an AngularJS application. -->
+    <!-- The ng-model directive binds the value of HTML controls (input, select, textarea) to application data. -->
+    <!-- The ng-bind directive binds application data to the HTML view. -->
+
+    <!-- <div ng-app="">
+
+        <p>Input something in the input box:</p>
+
+        <p>Name : <input type="text" ng-model="name" placeholder="Enter name here"></p>
+        <h1>Hello {{name}}</h1>
+
+    </div> -->
+
+
+
+
+
+
+    <!--------------- AngularJS Directives -->
+
+    <!-- The ng-init directive initializes AngularJS application variables. -->
+
+    <div ng-app="" ng-init="firstName='John'">
+
+        <p>The name is <span ng-bind="firstName"></span></p>
+
+    </div>
+</body>
+
+</html>
